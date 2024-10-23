@@ -13,6 +13,9 @@
 /.next/
 /out/
 
+# Dotenv
+.env
+
 # production
 /build
 
@@ -34,3 +37,7 @@ yarn-error.log*
 # typescript
 *.tsbuildinfo
 next-env.d.ts
+
+# hide product images
+/products
+/public/products
